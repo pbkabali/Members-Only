@@ -12,6 +12,7 @@ Signed-in members can see who the author of a post is. Otherwise, they can only 
 - Ruby,
 - Ruby on Rails,
 - Devise gem,
+- Node.js
 - Rubocop
 
 
