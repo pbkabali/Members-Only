@@ -28,12 +28,12 @@
 </table>
 
 <br>
-
-<% if user_signed_in? %>
-  <%= link_to 'New Post', new_post_path %>
-  <%= link_to 'Sign out', destroy_user_session_path, method: "delete" %>
-<%end%>
 <% if !user_signed_in? %>
   <%= link_to 'Sign up', new_user_registration_path %>
   <%= link_to 'Sign in', new_user_session_path %>
 <%end%>
+<%= link_to 'New Post', new_post_path %>
+<% if user_signed_in? %>
+  <%= link_to 'Sign out', destroy_user_session_path, method: "delete" %>
+<%end%>
+
