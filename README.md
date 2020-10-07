@@ -1,63 +1,70 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Members-Only Club
 
-> One paragraph statement about the project.
+> This is a project built to practice implementation of authentication in Rails using the Devise gem
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Members-only club is an exclusive clubhouse where members can write embarrassing posts about non-members.
+Signed-in members can see who the author of a post is. Otherwise, they can only see the post and wonder who wrote it.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby,
+- Ruby on Rails,
+- Devise gem,
+- Node.js
+- Rubocop
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+- Ruby 2.7.x
+- Rails 6.0.x
 
 ### Setup
 
+Clone the project from the repository [here](https://github.com/pbkabali/Members-Only)
+
+To get a local copy up and running follow these simple example steps.
+
 ### Install
+
+- Change into the root project directory
+- Run `bundle install` to install all required gems
+- Run `rails db:migrate` to apply database migrations
+- Run `rails server` to start the server
+- Open up the application on http://localhost:3000/ in the browser
 
 ### Usage
 
-### Run tests
+- The landing page is supposed to show all the created posts
+- You will need to create an account and be logged in to add a new post
+- When a user is signed in, they will be able to see who authored the post otherwise the author will not be displayed
 
-### Deployment
+### Run linters
 
+Run `rubocop .` from the project root directory
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Paul Balitema Kabali**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@pbkabali](https://github.com/pbkabali)
+- Twitter: [@pbkabali](https://twitter.com/pbkabali)
+- Linkedin: [engineerbpk](https://linkedin.com/in/engineerbpk)
 
-👤 **Author2**
+👤 **Abel Lavieri**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@alvp01](https://github.com/alvp01/)
+- Twitter: [@alvp01](https://twitter.com/alvp01/)
+- Linkedin: [alvp01](https://www.linkedin.com/in/alvp01/)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
@@ -67,10 +74,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [The Odin Project](https://www.theodinproject.com/)
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
