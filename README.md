@@ -2,7 +2,7 @@
 
 # Members-Only Club
 
-> This is a project built to practice implemention of authentication in Rails using the Devise gem
+> This is a project built to practice implementation of authentication in Rails using the Devise gem
 
 Members-only club is an exclusive clubhouse where members can write embarrassing posts about non-members.
 Signed-in members can see who the author of a post is. Otherwise, they can only see the post and wonder who wrote it.
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Change into the root project directory
 - Run `bundle install` to install all required gems
-- Run `rails db:migrate` to apply databse migrations
+- Run `rails db:migrate` to apply database migrations
 - Run `rails server` to start the server
 - Open up the application on http://localhost:3000/ in the browser
 
@@ -64,7 +64,7 @@ Run `rubocop .` from the project root directory
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
